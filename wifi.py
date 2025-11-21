@@ -1,5 +1,5 @@
 import sys
-if len(sys.argv) > 4:
+if len(sys.argv) == 4:
     wifi_name = str(sys.argv[1])
     password = str(sys.argv[2])
     speed = float(sys.argv[3])
