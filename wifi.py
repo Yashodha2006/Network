@@ -1,9 +1,9 @@
 import sys
 if len(sys.argv) == 4:
-    wifi_name = str(sys.argv[1])
-    password = str(sys.argv[2])
-    speed = float(sys.argv[3])
-    data_limit = float(sys.argv[4])
+    wifi_name = sys.argv[1]
+    password = sys.argv[2]
+    speed = sys.argv[3]
+    data_limit = sys.argv[4]
     print("User provided input")
 else:
     wifi_name = "BCA"
